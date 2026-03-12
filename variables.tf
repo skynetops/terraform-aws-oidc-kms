@@ -1,3 +1,8 @@
+variable "region" {
+  type    = string
+  default = "eu-west-1"
+}
+
 variable "name" {
   type        = string
   description = "Project name prefix"
